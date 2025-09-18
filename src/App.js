@@ -1,5 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
+import Games from './components/Tech_Games/games';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <div class="blowing-text">
           Driven By Passion, Driven By Curiosity, Powered By Code
         </div>
+        <Games/>
       </header>
     </div>
   );
